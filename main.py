@@ -119,15 +119,7 @@ class Saper:
             self.label_bomb_count -= 1
             self.label_bomb.config(text = 'БОМБ\n%d' %self.label_bomb_count)
 
-
-#print(a.pole)
-
-
-
-'''def search_bombs(self, i, j):
-        for xpos in range(i - 1, i + 1):
-            for ypos in range(j - 1, j + 1):
-                if [xpos, ypos] in self.'''
+            
 def create_start_text():
     global start_text
     start_text = Label(root, text = 'START GAME', font = 'Arial 40', width = 20, height = 5, fg = 'red', bg = 'black')
